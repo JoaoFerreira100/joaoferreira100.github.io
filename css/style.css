@@ -44,6 +44,10 @@
 	list-style-type: none; !important
 }
 
+#c1, #c2, #c3 {
+    width: 33%;
+}
+
 .footer ul li a {
 	padding: 0 0 5px 0;
 	display: block;
