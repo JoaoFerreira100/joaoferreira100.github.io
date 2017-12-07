@@ -1,4 +1,56 @@
+html, body {
+    margin: 0px;
+    min-height: 100%;
+}
+
+body {
+	background: linear-gradient(#0D47A1, #BBDEFB);
+	position: relative;
+}
+
 #foot {
-	background-color: #D3D3D3;
-	color: #D3D3D3;
+	list-style-type: none;
+	color:#01579B;
+	width: 85%;
+	min-width:85%;
+}
+
+#foot a {
+	color:#00897B;
+}
+
+#menu ul{
+    padding: 0;
+}
+
+#foot li {
+	list-style-type: none;
+}
+
+.jumbotron {
+	padding: 32px 32px 64px 32px;
+	height: 90%;
+}
+
+ #c1 #c3{
+	height:100%;
+}
+	
+#carousel{
+	width: 85%;
+	align-items: center;
+}
+
+#carousel .jumbotron{
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+	.jumbotron {
+		height: 80%;
+	}
+	
+	#foot {
+		text-align: center;
+	}
 }
