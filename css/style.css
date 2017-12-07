@@ -56,6 +56,10 @@ body {
 	align-items: center;
 }
 
+#jobstuff .jumbotron{
+	margin-top: 50px;
+}
+
 #jobstuff .anchor {
     display: block;
     position: absolute;
