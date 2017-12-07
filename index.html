@@ -144,7 +144,7 @@
 		 
 		  // Callback function references the event target and adds the 'swipe' class to it
 		  function swipeHandler( event ){
-			$( event.target ).carousel('next');
+			$( event.target ).(data-slide='next');
 		  }
 		});
 		</script>
