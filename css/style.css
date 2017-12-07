@@ -3,6 +3,7 @@ html, body {
     min-height: 100%;
 }
 
+
 body {
 	background: linear-gradient(#0D47A1, #BBDEFB);
 	position: relative;
@@ -54,6 +55,22 @@ body {
 	width: 85%;
 	align-items: center;
 }
+
+#jobstuff .anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -100px;
+    left: 0;
+    visibility: hidden;
+}
+
+#jobstuff .anchor:target {
+    padding-top:100px;
+}
+
 
 #developer {
 	max-width:100%;
