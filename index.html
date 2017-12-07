@@ -91,10 +91,6 @@
 			</div>
 		</div>
 		
-		<script>
-			$('.carousel slide').bcSwipe({ threshold: 50 });
-		</script>
-		
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		
 		<div class="page-footer">
@@ -138,8 +134,20 @@
 					</div>
 				</div>
 			</div>
+			</div>
 		</div>
-		</div>
+		
+		<script>
+		$(function(){
+		  // Bind the swipeHandler callback function to the swipe event on div.box
+		  $( "#carousel" ).on( "swipe", swipeHandler );
+		 
+		  // Callback function references the event target and adds the 'swipe' class to it
+		  function swipeHandler( event ){
+			$( event.target ).carousel('next');
+		  }
+		});
+		</script>
 		
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
