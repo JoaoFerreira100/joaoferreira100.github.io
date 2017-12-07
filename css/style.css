@@ -31,7 +31,22 @@ body {
 	padding: 32px 32px 64px 32px;
 	height: 90%;
 }
-	
+
+#principal {
+	align-items: center;
+	width: 85%;
+}
+
+
+#construction {
+	align-items: center;
+	margin-top: 30px;
+}
+
+#image {
+	width: 100%;
+}
+
 #carousel{
 	width: 85%;
 	align-items: center;
@@ -48,8 +63,8 @@ body {
 	}
 	
 	#carousel{
-	width: 95%;
-	align-items: center;
+		width: 95%;
+		align-items: center;
 	}
 	
 	#foot {
