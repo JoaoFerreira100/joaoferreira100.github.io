@@ -35,6 +35,7 @@ body {
 #principal {
 	align-items: center;
 	width: 85%;
+	min-width:85%;
 }
 
 
